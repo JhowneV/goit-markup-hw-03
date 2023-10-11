@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Effective Solutions For Your Business</title>
 
+
     <link rel="stylesheet" href="css/styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,26 +17,28 @@
 </head>
 
 <body>
-    <header class="main-header">
-        <nav>
-            <!--LOGO-->
-            <a href="WEBSTUDIO" class=logo><span>WEB</span><span class="logo-studio">STUDIO</span></a>
+    <header class="container d-flex">
+        <div class="d-flex">
+                <!--LOGO-->
+                <a href="WEBSTUDIO" class=logo><span>WEB</span><span class="logo-studio">STUDIO</span></a>
+            <nav> 
+                <!--MENU LIST-->
+                <ul class="list logo-link">
+                    <li class="main-header-menu">
+                        <a class="nav-link" href="#Studio">Studio</a>
+                    </li>
+                    <li class="main-header-menu">
+                        <a class="nav-link" href="#Portfolio">Portfolio</a>
+                    </li>
+                    <li class="main-header-menu">
+                        <a class="nav-link" href="#Contacts">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
-            <!--MENU LIST-->
-            <ul class="list">
-                <li class="main-header-menu">
-                    <a class="nav-link" href="#Studio">Studio</a>
-                </li>
-                <li class="main-header-menu">
-                    <a class="nav-link" href="#Portfolio">Portfolio</a>
-                </li>
-                <li class="main-header-menu">
-                    <a class="nav-link" href="#Contacts">Contacts</a>
-                </li>
-            </ul>
-        </nav>
         <!--CONTACTS -->
-        <ul class="list">
+        <ul class="list-contact">
             <li class="main-header-ctas-item">
                 <a class="logo-line-contacts" href="info@devstudio.com"> info@devstudio.com </a>
             </li>
@@ -47,13 +50,13 @@
 
     <main>
         <!--HERO SECTION-->
-        <section class="hero-background">
-            <h1 class="hero">Effective Solutions <br> for your Business</h1>
+        <section class="hero-bgdark">
+            <h1 class="hero-text">Effective Solutions <br> for your Business</h1>
             <button type="button" class="hero-button">Our Services</button>
         </section>
 
-        <section class="team-objective">
-            <div>
+        <section>
+            <div class="container">
                 <ul class="list">
                     <li>
                         <h3 class="h-title">Strategy</h3>
@@ -83,16 +86,16 @@
         <section class="heading2">
             <h2 class="section-title">What Are We Doing</h2>
 
-            <div>
+            <div class="container">
                 <ul class="list">
                     <li>
-                        <img src="images/desktop.jpg" alt="desktop" width="360">
+                        <img src="portfolio/desktop.jpg" alt="desktop" width="360">
                     </li>
                     <li>
-                        <img src="images/mobile.jpg" alt="mobile" width="360">
+                        <img src="portfolio/mobile.jpg" alt="mobile" width="360">
                     </li>
                     <li>
-                        <img src="images/mobiledesktop.jpg" alt="mobiledesktop" width="360">
+                        <img src="portfolio/mobiledesktop.jpg" alt="mobiledesktop" width="360">
                     </li>
                 </ul>
             </div>
@@ -101,26 +104,26 @@
         <Section class="team">
             <h2 class="section-title">Our Team</h2>
 
-            <div>
+            <div class="container">
                 <ul class="list">
                     <li>
-                        <img src="images/team1.jpg" alt="markguerro" width="264">
+                        <img src="portfolio/team1.jpg" alt="markguerro" width="264">
                         <h3 class="h-title">Mark Guerrero</h3>
                         <p class="p-text"> Product Designer</p>
                     </li>
                     <li>
-                        <img src="images/team2.jpg" alt="tomford" width="264">
+                        <img src="portfolio/team2.jpg" alt="tomford" width="264">
                         <h3 class="h-title">Tom Ford</h3>
                         <p class="p-text"> Frontend Developer</p>
                     </li>
                     <li>
-                        <img src="images/team3.jpg" alt="camilagarcia" width="264">
+                        <img src="portfolio/team3.jpg" alt="camilagarcia" width="264">
                         <h3 class="h-title">Camila Garcia</h3>
                         <p class="p-text"> Marketing</p>
                     </li>
                     <li>
-                        <img src="images/team4.jpg" alt="danielwilson" width="264">
-                        <h3 class="h.h-title">Daniel Wilson</h3>
+                        <img src="portfolio/team4.jpg" alt="danielwilson" width="264">
+                        <h3 class="h-title">Daniel Wilson</h3>
                         <p class="p-text"> UI Designer</p>
                     </li>
                 </ul>
